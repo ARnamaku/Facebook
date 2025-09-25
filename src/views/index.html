@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin to Win! - Redeem Your Prize</title>
+    <link rel="stylesheet" href="/src/views/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>SPIN & WIN EXCLUSIVE PRIZE</h1>
+            <p>You have one chance to win the grand prize. Good luck!</p>
+        </header>
+
+        <div class="wheel-container">
+            <div class="spinner-container">
+                <div class="wheel" id="wheel">
+                    <div class="prize" style="--i:0; --clr:#ffc107;"><span>$10</span></div>
+                    <div class="prize" style="--i:1; --clr:#ffffff;"><span>Try Again</span></div>
+                    <div class="prize" style="--i:2; --clr:#4caf50;"><span>$20</span></div>
+                    <div class="prize" style="--i:3; --clr:#ffffff;"><span>5% OFF</span></div>
+                    <div class="prize" style="--i:4; --clr:#f44336;"><span>No Luck</span></div>
+                    <div class="prize" style="--i:5; --clr:#2196f3;"><span>$5</span></div>
+                    <div class="prize" style="--i:6; --clr:#e91e63;"><span>10% OFF</span></div>
+                    <div class="prize main-prize" style="--i:7; --clr:#ffeb3b;"><span>$50</span></div>
+                </div>
+                <div class="spin-btn" id="spin-btn">SPIN</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup-container">
+        <div class="popup-content">
+            <img src="https://i.ibb.co/3sLz3q3/trophy.png" alt="Trophy" class="trophy-icon">
+            <h2>Congratulations!</h2>
+            <p>You have won the grand prize of <strong>$50!</strong></p>
+            <p>Click the button below to claim your reward now.</p>
+            <a href="spin.html" class="redeem-btn">REDEEM NOW</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/src/views/script.js"></script>
+</body>
+</html>
+

